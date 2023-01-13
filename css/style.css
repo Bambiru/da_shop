@@ -142,12 +142,15 @@ color: #F37D98;
 
 .section{
   margin-bottom: 145px;
+  height: 100%;
 }
-.section p:first-of-type{
+.section>p:first-of-type{
   margin-top: 60px;
   font-weight: 600;
   font-size: 24px;
   text-align: left;
+  color:#797979;
+  padding-bottom: 20px;
   }
 
 .section ul{
@@ -202,7 +205,12 @@ text-align: left;
 .popular>.content a{
   font-size: 16px;
 }
-.best{position: relative;}
+.best::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .best a{
   font-family: 'Montserrat',serif;
   font-size: 14px;
@@ -210,9 +218,9 @@ text-align: left;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(188, 38, 73, 1);
   border-radius: 20.5px;
-  position: relative;
-  left: 210px;
-  top: 5px;
+  float:right;
+  margin: 23px 23px 0 0;
+
 }
 .da-shop{
   text-align: left;
@@ -256,7 +264,7 @@ text-align: left;
   border: 1px hidden gray;
   width: 58px;
   border-radius: 4px;
-  margin: 10px 0 4px 10px;
+  margin: 12px 9px 4px 0;
   font-size: 14px !important ;
 }
 
@@ -271,21 +279,111 @@ text-align: left;
   background-color: rgba(255, 119, 119, 1);
   padding: 4px 11px;
 }
-/* 
+
 button{
-  margin: 76px 0 156px;
+  margin: 120px 0 156px;
+  color:#797979;
+  padding: 11px 59px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #D9D9D9;  
+  position: relative;
+  left: -14px;
+}
+
+/* section4 */
+
+/* section ul::after{
+  content: "";
+  display: block;
+  clear: both;
+} */
+
+#section4 p{
+  width: 384px;
+  height: 165px;
+}
+
+.top_25,
+.top_26 {
+  font-size: 20px;
+  font-weight: 600;
+  color:#FFFFFF;
+  line-height: 165px;
+}
+
+.top_27{
+  font-size: 20px;
+  font-weight: 600;
+  color:#FFFFFF;
+  position: relative;
+  top:60px;
+}
+.top_27 > span {
+  color: #999999;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.rectangle_25{
+  background-image: url(../img/rectangle_25.png);
+  width: 350px;
+  float: left;
+}
+.rectangle_26{
+  width: 350px;
+  float: left;
+  margin-left: 26px;
+  background-image: url(../img/rectangle_26.png);
+}
+.rectangle_27{
+  /* width: 100px; */
+  float: right;
+  background-image: url(../img/rectangle_27.png);
+}
+
+/* 섹션5 */
+#section5{
+  margin-top: 120px;
+  width: 1200px;
+}
+/* #section5>section{
+} */
+#section5>section.arti1{
+height: 241px;
+background-color: #FAFAFA;
+border-radius: 16px;
+  width: 550px;
+  /* float: left; */
+}
+#section5>section.arti2{
+  height: 241px;
+  background-color: #FAFAFA;
+  border-radius: 16px;
+  width: 550px;
+  /* float: right; */
+}
+
+#section5 article a>img{
+  margin: 20px;
+  width: 205px;
+  /* float: left; */
+}
+
+/*
+#section5 article a>div{
+text-align: right;
+width: 280px;
+float: left;
 } */
 
 
-/* best꾸미기
-font-size: 9px;
-color: #fff;
-background: #f00;
-border-radius: 2px;
-padding: 2px 4px;
-margin: 0 10px; */
 
-
+.cf::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 /* img */
 .attention{
   width: 383px;
