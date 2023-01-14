@@ -264,7 +264,7 @@ text-align: left;
   border: 1px hidden gray;
   width: 58px;
   border-radius: 4px;
-  margin: 12px 9px 4px 0;
+  margin: 12px 2px 4px 0;
   font-size: 14px !important ;
 }
 
@@ -277,7 +277,7 @@ text-align: left;
   line-height: 17px;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 119, 119, 1);
-  padding: 4px 11px;
+  padding: 4px 10px;
 }
 
 button{
@@ -345,45 +345,145 @@ button{
 /* 섹션5 */
 #section5{
   margin-top: 120px;
-  width: 1200px;
 }
-/* #section5>section{
-} */
-#section5>section.arti1{
+
+.arti1{
+width: 588px;
 height: 241px;
 background-color: #FAFAFA;
+border: 1px solid #FAFAFA;
 border-radius: 16px;
-  width: 550px;
-  /* float: left; */
-}
-#section5>section.arti2{
-  height: 241px;
-  background-color: #FAFAFA;
-  border-radius: 16px;
-  width: 550px;
-  /* float: right; */
-}
-
-#section5 article a>img{
-  margin: 20px;
-  width: 205px;
-  /* float: left; */
-}
-
-/*
-#section5 article a>div{
-text-align: right;
-width: 280px;
+margin-bottom: 64px;
 float: left;
-} */
+}
 
+.img5{
+  width: 205px;
+  margin: 20px;
+  float: left;
+}
+.section5_tex{
+  width: 260px;
+  float: left;
+  margin: 38px 61px 0 0;
+}
 
+.section5_tex p,
+.section5_tex>.money_information,
+.section5_tex>.scope,
+.section5_tex>.event_information
+{
+  text-align: left;
+}
+
+.section5_tex>.event_information>.special_price{
+  text-align: center;
+}
+
+.arti2 {
+width: 588px;
+height: 241px;
+background-color: #FAFAFA;
+border: 1px solid #FAFAFA;
+border-radius: 16px;
+margin-bottom: 64px;
+float: right;
+}
+
+#section5 a .da_shop5{
+  color: rgba(211, 211, 211, 1);
+  font-size: 14px;
+  line-height: 16.71px;
+  margin-bottom: 8px;
+}
+
+#section5 a {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(121, 121, 121, 1);
+  line-height: 1.5;
+}
 
 .cf::after{
   content: "";
   display: block;
   clear: both;
 }
+/* 푸터 */
+#footer_wrap{
+  color: rgba(153, 153, 153, 1);
+  font-size: 14px;
+  text-align-last: left;
+  line-height: 28px;
+}
+#footer_wrap dt{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin: 40px 0 16px 0;
+}
+
+#footer_list1{
+  width: 252px;
+  float: left;
+}
+
+#footer_list1 #consulting{
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  margin-top: 31px;  
+  }
+  #footer_list1 p:last-of-type{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 10px;
+  }
+  
+#footer_list2{
+  width: 402px;
+  margin: 0 100px 0 100px;
+  float: left;
+}
+
+#footer_list3{
+  width: 311px;
+  float: right;
+}
+#footer_list3 img {
+  margin-top: 34px;
+}
+
+#footer_nav{
+  float: left;
+}
+
+#footer_nav li{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#footer_nav li a{
+color: rgba(0, 0, 0, 1);
+font-weight: 500;
+font-size: 16px;
+margin-right: 40px;
+}
+
+#footer_nav.copyright{
+  float: right;
+}
+.copyright{
+  color: rgba(200, 200, 200, 1);
+  font-size: 12px;
+  letter-spacing: -2%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 43px 0;
+}
+
+
 /* img */
 .attention{
   width: 383px;
